@@ -21,6 +21,7 @@ def sonuc_buton():
         return
     if uyku < 0 or ders < 0 or serbest <0:
         messagebox.showerror("Hata","Değerler negatif olamaz")
+        return
     if uyku+ders+serbest > 24: 
         messagebox.showerror("Hata", "Saatlerin toplamı 24'den büyük olamaz!")
         return

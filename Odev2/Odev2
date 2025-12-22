@@ -42,6 +42,7 @@ def sonuc_buton():
         genel_sonuc.config(text=f"Genel sonucunuz: -Verimsiz gündür-")
     else:
         genel_sonuc.config(text=f"Genel sonucunuz: -Dengeli gündür-")
+
 tk.Label(pencere, text="Lütfen Saat Cinsinden Cevap Veriniz", font=('Arial', 14, 'bold')).grid(row=0, column=0, columnspan=2, pady=(10, 20))
 
 tk.Label(pencere, text="Günlük Uyku Sürenizi Giriniz:").grid(row=1, column=0, padx=10, pady=5, sticky='w')
